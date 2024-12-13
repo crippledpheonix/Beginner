@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS Cricket;
+USE Cricket;
+
+CREATE TABLE IF NOT EXISTS Batsman(
+Name VARCHAR(20),
+Position INT(2),
+Style VARCHAR(15),
+Kit_Number INT(10));
+
+SHOW DATABASES;
+SHOW TABLES;
+
+
